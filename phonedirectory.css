@@ -1,0 +1,131 @@
+body {
+    margin:0px;
+}
+ 
+.container {
+    position:relative;
+    margin:auto;
+}
+
+.title {
+    padding:10px;
+    border-bottom:2px solid;
+    background:black;
+
+}
+ 
+.title h3 {
+    color:white;
+    font-family:sans-serif;
+}
+ 
+.quickadd {
+    padding:10px;
+    border-bottom:1px solid;
+}
+ 
+#QuickAdd {
+    padding:8px;
+    background:rgb(103, 162, 39);
+    border:1px;
+    text-shadow:0px 0px 1px;
+    color:white;
+}
+ 
+.quickaddForm {
+    height:440px;
+    padding:10px;
+  
+    overflow:hidden;
+    display:none;
+}
+ 
+.quickaddForm label {
+    position:relative;
+    display:block;
+    width:300px;
+    height:10px;
+        font-family:sans-serif;
+    font-size:12px;
+    padding:10px;
+    font-weight:bold;
+}
+ 
+.quickaddForm input,textarea {
+  
+    width:50%;
+    padding:10px;
+    font-weight:bold;
+
+}
+ 
+#Add,#Cancel {
+    padding:10px;
+    margin:20px;
+    position:relative;
+    left:300px;
+    border:1px dashed;
+    border-radius:5px;
+    font-weight:bold;
+}
+ 
+.entry {
+    background:rgb(230,230,230);
+    height:40px;
+    border-bottom:1px solid;
+}
+ 
+ 
+.entry .name {
+    width:130px;
+    float:left;
+    padding:11px;
+}
+ 
+.entry .email {
+    width:200px;
+    float:left;
+    padding:11px;
+}
+ 
+ 
+.entry .phone {
+    width:100px;
+    float:left;
+    padding:11px;
+}
+ 
+.entry .address {
+    width:250px;
+    float:left;
+    padding:11px;
+}
+ 
+.entry .city {
+    width:100px;
+    float:left;
+    padding:11px;
+}
+ 
+.entry .del {
+    width:30px;
+    float:left;
+    padding:9px;
+}
+ 
+.entry p {
+    margin:0px;
+    font-family:sans-serif;
+    font-size:12px;
+    text-shadow:0px 0px 1px rgba(0,0,0,0.4);
+}
+ 
+.entry .del a {
+    font-family:sans-serif;
+    color:#FFF;
+    font-size:12px;
+    padding:5px;
+    background:rgb(255,100,100);
+    border-radius:8px;
+    text-decoration:none;
+}
